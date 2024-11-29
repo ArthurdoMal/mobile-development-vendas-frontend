@@ -1,16 +1,9 @@
-@import url("./assets/fonts/Inter/inter.css");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-* {
-  user-select: none;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
 }
 
-:root {
-  font-size: 16px;
-}
-
-#app, body {
-  height: 100lvh;
+.App {
+  padding: 20px;
 }
